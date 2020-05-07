@@ -1,24 +1,8 @@
-# vue_littletools
+# Vue Little Tools
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 接口
+  - [Kate Api](https://api.66mz8.com/)
+- 技术栈
+  - 请求：axios
+  - UI：Element-ui
+  - Cli：Vue-Cli4.x
