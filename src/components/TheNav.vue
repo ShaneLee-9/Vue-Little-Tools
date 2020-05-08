@@ -1,7 +1,6 @@
 <template>
     <nav>
-        <router-link to="/shorturl">短网址链接</router-link>
-        
+        <router-link v-for="item of navList" :key="item.name" :to="item.url">{{ item.name }}</router-link>
     </nav>
 </template>
 
@@ -9,7 +8,12 @@
     export default {
         name: 'TheNav',
         data() {
-            return {};
+            return {
+                navList: [
+                    { name: '短网址链接', url: '/shorturl' },
+                    { name: 'QQ查询', url: '/qq' }
+                ]
+            };
         }
     };
 </script>
@@ -34,6 +38,10 @@
         &:hover {
             color: #fff;
             background: $color-primary;
+        }
+
+        & + a {
+            margin-top: 10px;
         }
     }
 </style>

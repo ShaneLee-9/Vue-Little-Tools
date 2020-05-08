@@ -9,5 +9,6 @@ module.exports = {
                 path.resolve(__dirname, './src/assets/styles/variable.scss')
             ]
         }
-    }
+    },
+    productionSourceMap: false
 };
