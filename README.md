@@ -1,6 +1,6 @@
 # Vue Little Tools
 
-[演示地址](https://shanelee-9.github.io/Vue-Little-Tools://shanelee-9.github.io/Vue-Little-Tools/)
+[演示地址](https://shanelee-9.github.io/Vue-Little-Tools/dist)
 
 - 接口
   - [Kate Api](https://api.66mz8.com/)
